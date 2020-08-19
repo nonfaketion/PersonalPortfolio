@@ -14,35 +14,78 @@
     <!-- nav menu -->
     <nav>
       <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <!-- page header -->
     <header>
-      <h1>Hi! I'm <span>Ami Mizuno</span>.</h1>
-      <h2>I'm a digital <span>designer</span> and <span>developer</span> with a love for cats.</h2>
+      <h1>Hi! I'm <span>Junming Chen</span>.</h1>
+      <h2>And, I'm a Software Engineer.</h2>
     </header>
     <!-- about me section -->
-    <section class="about container">
-      <h2>About</h2>
+    <section id ="about" class="about container">
+      <h2>About Me</h2>
       <img class="profile-img" src="images/profile.png" alt="Ami Mizuno">
-      <p>Soufflé sesame snaps dragée. Cotton candy bear claw jelly sweet roll jelly beans. Liquorice danish candy canes lollipop candy biscuit gingerbread cake. Sugar plum topping marshmallow dessert pudding donut croissant.</p>
+      <p></p>
     </section>
     <!-- my skills section -->
-    <section class="skills container">
+    <section id = "skills" class="skills container">
       <h2>Skills</h2>
       <ul>
-        <li>Photoshop</li>
-        <li>Branding</li>
-        <li>Logo Design</li>
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>Git</li>
       </ul>
     </section>
+
+    <hr>
+    <Section id="experience" class ="experience container">
+    <div class="background-alt">
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+          <div data-date="September 2015 – September 2016">
+              <h3>UC Davis Continuing and professional Education</h3>
+              <h4>Teaching Assistant - UC Davis Data Visualization Boot Camp</h4>
+              <p>Guiding students on their programming problem-solving thought process, supporting them in their projects, providing feedback on their assignments, and assist them on learning applicable and in-demand skills for data professionals.
+              </p>
+              <p>Technologies: Python, SQL, JavaScript, HTML, CSS, Git, D3.js, Postgresql, MongoDB, Tableau, Machine Learning.</p>
+              <h4>Substitute Teaching Assistant</h4>
+              <p>Substitute and fulfill the role as teaching assistant for data analytic and visualization classes.
+              </p>
+              <p>Assist Instructor and primary teaching assistant on that day's lesson materials.</p>
+          </div>
+
+          <div data-date="September 2015 – September 2016">
+              <h3>City of Sacramento</h3>
+              <h4>Student Intern</h4>
+              <p>Conducted organization, outreach and survey-taking for the establishment and viability of a 12-week homeless rehabilitation campaign.
+              </p>
+              <p>Utilized traffic department’s record to research safety hazard spots within a given city district.
+              </p>
+              <p>Compiled a presentation to appeal to City Council to install a bike safety sign on an intersection at my high school due to significant risk of bike/car accidents.
+              </p>
+          </div>
+
+          
+      </div>
+  </div>
+</Section>
+  <!-- End #experience -->
+
+
     <!-- my work section -->
-    <section class="work container">
-      <h2>Work</h2>
+    <section id="projects" class="work container">
+      <h2>Projects</h2>
       <p>Here are some past projects:</p>
       <div class="work-items">
         <img src="images/luna_computer.png" alt="Luna Website">
@@ -50,14 +93,35 @@
         <img src="images/sailor_v.png" alt="Sailor V Branding">
       </div>
     </section>
+
+    <section id = "education"class = "Education container">
+    <div id="education">
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+          <h3>California State University, Sacramento</h3>
+          <h4>Bachelor of Science in Computer Science</h4>
+          <span>​I am a graduate at California State University, Sacramento with a Bachelor of Science degree in Computer Science.
+             Through this program I have developed a strong problem-solving skills that sharpened my ways to think critically.
+              I have completed and facilitated multiple projects that require planning, design, and implementation.</span>
+      </div>
+      <!-- End .education-block -->
+
+      <div class="education-block">
+
+      </div>
+      <!-- End .education-block -->
+  </div>
+</section>
+  <!-- End #education -->
+    <hr>
     <!-- footer & contact info -->
-    <footer class="contact container">
+    <footer id ="contact"class="contact container">
       <h2>Contact</h2>
-      <p>Email me at <a href="mailto:hello@myemail.com">hello@myemail.com</a> or find me around the web!</p>
+      <p>Email me at <a href="mailto:junming46@gmail.com">junming46@gmail.com</a> or find me around the web!</p>
       <div class="social">
-        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
-        <a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a>
-        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+        <!-- <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a> -->
+        <a href="https://github.com/nonfaketion" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/junmingc/" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
     </footer>
   </body>

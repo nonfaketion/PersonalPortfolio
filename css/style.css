@@ -44,7 +44,7 @@ nav a {
 
 nav a:hover {
   color: deepskyblue;
-  text-decoration: line-through;
+  /* text-decoration: line-through; */
 }
 
 /* header section */
@@ -116,8 +116,14 @@ header h1 span:hover {
 }
 
 footer .svg-inline--fa {
-  color: salmon;
+  /* color: rgb(113, 167, 202); */
   font-size: 65px;
+}
+.fa-github-square{
+color: black;
+}
+.fa-linkedin{
+  color: rgb(40,103,178);
 }
 
 footer .svg-inline--fa:hover {

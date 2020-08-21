@@ -1,7 +1,6 @@
 /* general styles */
 body {
   font-family: "Lato", sans-serif;
-
 }
 
 .container {
@@ -40,6 +39,7 @@ nav {
   position: fixed;
   width: 100%;
   line-height: 60px;
+  height: 100vh;
 
 }
 
@@ -131,12 +131,13 @@ nav ul li a:hover{
 header {
   font-size: 25px;
   padding: 15% 10%;
-  background: url(../images/DSC_0435.jpg);
-  background-size:  cover;
+  background: url(../images/bwtree.jpg);
+  background-size: cover;
   background-position: center;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: rgb(255, 255, 255);
+  height: 100vh;
 }
 
 
@@ -144,7 +145,11 @@ header h1{
     font-size: 60px;
     font-weight: 300;
     letter-spacing: 2px;
-
+}
+header h2 {
+  font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
 
 
@@ -162,11 +167,14 @@ header h1 span:hover {
 }
 
 /* about me section */
+.aboutdiv{
+background: transparent;
+}
 .about {
-  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1)),
-    url("../images/stars.png");
-  background-size: cover;
-  background-attachment: fixed;
+    width: 100vw;
+}
+.about p{
+  font-size: 23px;
 }
 
 /* my skills section */

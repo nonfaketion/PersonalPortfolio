@@ -348,19 +348,36 @@ background-color: rgb(236, 236, 236);
 
 /* Project  */
 
-.work {
-  background-color: white;
+#projects h1 {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 3%;
 }
 
 .work-items {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin-top: 60px;
+  /* justify-content: space-between;
+  margin-top: 60px; */
+}
+
+.projectcolumn {
+  flex: 25%;
+  max-width: 80%;
+  padding: 0 4px;
 }
 
 .work-items img {
-  margin-bottom: 30px;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 60%;
+}
+
+
+.card-img {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
 }
 /* End of Projects */
 
